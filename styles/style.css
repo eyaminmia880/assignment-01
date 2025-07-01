@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    font-size: 28px;
+    font-weight: 900px;
+}
+
+.primary-bg {
+    color: #0D1321;
+}
+
+.btn {
+    font-size: 28px;
+    font-weight: 900px;
+    border-radius: 10px;
+}
+
+/* main section style */
+.banner {
+    background-image: url('../assets/Hero-bg.png');
+    /* width: 1440px;
+    height: 652px; */
+}
+
+.banner-1 {
+    text-align: center;
+    padding: 26px 220px 45px 220px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.btn-1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: #0D1321;
+    padding: 21px 24px;
+    border-radius: 16px;
+}
+
+.web-dev-section {
+    text-align: center;
+    padding: 80px 90px;
+    margin: 50px 150px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+    gap: 10px;
+}
+
+.web-dev-section h2 {
+    font-size: 32px;
+    font-weight: 900px;
+    color: #0D1321;
+    margin-top: 10px;
+}
+
+.web-dev-descr {
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.web-card {
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 32px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.web-card.reverse{
+    flex-direction: row-reverse;
+}
+.web-card-text {
+  flex: 1;
+  color: #0D1321;
+  opacity: 70%;
+  text-align: left;
+}
+.web-card-text h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.web-card-text p{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.web-card-text button{
+    font-size: 24px;
+    font-weight: 500px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: none;
+}
+.web-card-text button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.web-card-img{
+    flex: 1;
+    text-align: center;
+    min-width: 240px;
+}
+.web-card-img img{
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+}
